@@ -772,9 +772,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 01 Objective:** Executes inside the `/workspaces/Sri-Lanka--HMS` GitHub Codespace (`https://github.com/PasanRamyanath/Sri-Lanka--HMS`). First clones `https://github.com/PasanRamyanath/HMS-Backend` and `https://github.com/PasanRamyanath/HMS-Frontend` into `/workspaces/Sri-Lanka--HMS/`, configures `.devcontainer/devcontainer.json`, installs Antigravity CLI (`agy`) coding & Apple Design UI/UX skills (`dickwu/apple-design-skill`, `nextlevelbuilder/ui-ux-pro-max-skill`, `sickn33/agentic-awesome-skills`, `dietrichgebert/ponytail`, `addyosmani/agent-skills`), enforces Biome (`noConsole: 'error'`) + Knip + Lefthook, implements the SHA-256 hash-chained `ImmutableAuditLog`, and sets up independent GitHub Actions deployment pipelines.
 
-### - [ ] Step 001 (Phase 01.01): Clone `HMS-Backend` & `HMS-Frontend` First Inside the `Sri-Lanka--HMS` GitHub Codespace
+### - [x] Step 001 (Phase 01.01): Clone `HMS-Backend` & `HMS-Frontend` First Inside the `Sri-Lanka--HMS` GitHub Codespace
 
-- **Step Completion Status**: `- [ ] Step 001 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/plan.md before advancing to Step 002`
+- **Step Completion Status**: `- [x] Step 001 Done — Completed and verified in /workspaces/Sri-Lanka--HMS/plan.md`
 - **Target GitHub Repository in Codespaces**: [Sri-Lanka--HMS](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FSri-Lanka--HMS) (`/workspaces/Sri-Lanka--HMS` • CI/CD: `.devcontainer/devcontainer.json (Workspace Orchestrator)`)
 - **Target File / Scope**: `/workspaces/Sri-Lanka--HMS/`
 - **Architecture Layer**: GitHub Codespaces 3-Repo Orchestrator, AGY CLI Skills & Cross-Repo Quality Gates (`Sri-Lanka--HMS`)
