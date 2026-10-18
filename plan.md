@@ -2088,9 +2088,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 05 Objective:** Establishes the Apple HIG & Liquid Glass design system in `HMS-Frontend` (`https://github.com/PasanRamyanath/HMS-Frontend`) using `dickwu/apple-design-skill` and `nextlevelbuilder/ui-ux-pro-max-skill`: translucent vibrancy surfaces (`backdrop-filter: blur(24px) saturate(180%)`), SF Pro optical typography with `font-variant-numeric: tabular-nums` for LKR/USD currency, continuous squircles, spring physics (`cubic-bezier(0.22, 1, 0.36, 1)`), 44x44pt touch ergonomics, trilingual (`EN`/`SI`/`TA`) localization, and a 70-line native `fetch` + `WebSocket` AppSync client.
 
-### - [ ] Step 101 (Phase 05.01): Author Apple HIG & Liquid Glass Tailwind CSS v4 Theme (`HMS-Frontend/src/styles/apple-hig-theme.css`)
+### - [x] Step 101 (Phase 05.01): Author Apple HIG & Liquid Glass Tailwind CSS v4 Theme (`HMS-Frontend/src/styles/apple-hig-theme.css`)
 
-- **Step Completion Status**: `- [ ] Step 101 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 102`
+- **Step Completion Status**: `- [x] Step 101 Completed — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 102`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/styles/apple-hig-theme.css`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
