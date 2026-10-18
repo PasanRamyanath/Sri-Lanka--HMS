@@ -8,6 +8,7 @@
 # ==============================================================================
 
 set -euo pipefail
+export NODE_OPTIONS="--experimental-strip-types --no-warnings"
 
 ROOT_DIR="/workspaces/Sri-Lanka--HMS"
 BACKEND_DIR="${ROOT_DIR}/HMS-Backend"

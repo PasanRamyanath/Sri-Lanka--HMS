@@ -8,9 +8,11 @@ This workspace (`/workspaces/Sri-Lanka--HMS`) orchestrates the Sri Lankan Cloud 
 
 ## 2. Mandatory Coding Conventions
 - **No Line-Count Constraints**: Code should be readable, well-structured, and expressive. Never cram logic onto single lines or delete docstrings to fit an arbitrary LOC budget.
+- **Ponytail Anti-Bloat**: Calibrated via `.agents/rules/ponytail.md` to eliminate speculative abstractions and dead code while fully protecting Sri Lankan statutory tax formulas, 42-entity multi-tenant SaaS schema, and Apple HIG standards.
 - **Zero Console & Debugger Noise**: Never introduce `console.log`, `console.error`, `console.warn`, or `debugger`. Use explicit typed results (`Result<T, E>`) and proper AppSync / logger constructs.
 - **Strict Linting & Dead Code Elimination**: Ensure `npx biome check .` and `npx knip` report zero warnings or errors.
-- **Apple HIG & Liquid Glass UI Standard**: All frontend elements must follow Apple Human Interface Guidelines tokens and interaction physics.
+- **Apple HIG & Liquid Glass UI Standard**: All frontend elements must follow Apple Human Interface Guidelines tokens and interaction physics (via `apple-design` and `ui-ux-pro-max`).
+
 
 ## 3. Step Execution & Verification Protocol
 1. Follow the sequential order in `plan.md` (Step 001 through Step 500).

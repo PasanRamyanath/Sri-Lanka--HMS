@@ -71,8 +71,18 @@ All entities reside in the single DynamoDB table `HmsTable` with strict tenant i
 - **Zero dead code**: `knip` enforces zero unused files, exports, types, or dependencies.
 - **Cognitive complexity**: Maximum allowable complexity of 12.
 
-## 5. Execution & Gate Protocol
+## 5. Ponytail Anti-Bloat & Skills Configuration
+- **Ponytail Operating Mode**: Calibrated in `.agents/rules/ponytail.md` to prune AI code bloat, speculative wrapper classes, and single-use abstractions.
+- **Readability Over Line Budgets**: Never compromise readability, type safety, docstrings, or domain completeness for lower line counts.
+- **Protected Domain Invariants**: Never simplify Sri Lankan 4-stage compounding tax calculations, NIC/Passport validations, LankaQR EMVCo structures, 42-entity multi-tenant SaaS schema, or SHA-256 hash-chained `ImmutableAuditLog`.
+- **Integrated Skills Stack**:
+  - `apple-design` & `ui-ux-pro-max`: Apple HIG tokens, Liquid Glass, squircle geometry, and touch ergonomics in `HMS-Frontend`.
+  - `agent-skills`: Spec-driven development, code reviews, and security auditing.
+  - `agentic-awesome-skills`: AWS CDK v2 serverless, AppSync GraphQL, and OWASP hardening.
+
+## 6. Execution & Gate Protocol
 - Sequential step execution (Steps 001–500).
 - Gate check at each step: Biome check + Knip + tests must pass.
 - Update checklist status in `plan.md` and repository `PROGRESS.md` from `- [ ]` to `- [x]`.
 - Commit changes atomically and push to GitHub remote (`git push origin main`).
+
