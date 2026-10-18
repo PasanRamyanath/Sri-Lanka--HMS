@@ -1101,9 +1101,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 02 Objective:** Implements 100% pure, zero-dependency TypeScript domain modules in `packages/core` covering the 4-stage compounding Sri Lankan hotel tax formula (`SC -> TDL -> SSCL -> VAT`), reverse all-inclusive rate derivation, Sri Lankan NIC/Passport parsing, LankaQR EMVCo TLV generation, PayHere/WebXPay hashes, Channex HMAC verification, and 10% Service Charge pool payroll math.
 
-### - [ ] Step 026 (Phase 02.01): Define Tax Configuration & Breakdown Types in `packages/core/src/tax.ts`
+### - [x] Step 026 (Phase 02.01): Define Tax Configuration & Breakdown Types in `packages/core/src/tax.ts`
 
-- **Step Completion Status**: `- [ ] Step 026 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 027`
+- **Step Completion Status**: `- [x] Step 026 Done`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/src/tax.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
