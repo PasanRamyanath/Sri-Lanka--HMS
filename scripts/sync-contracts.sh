@@ -13,7 +13,10 @@ ROOT_DIR="/workspaces/Sri-Lanka--HMS"
 BACKEND_DIR="${ROOT_DIR}/HMS-Backend"
 FRONTEND_DIR="${ROOT_DIR}/HMS-Frontend"
 FRONTEND_GENERATED_DIR="${FRONTEND_DIR}/src/generated"
-SOURCE_CONTRACTS="${BACKEND_DIR}/packages/graphql/src/generated/graphql.ts"
+SOURCE_CONTRACTS="${BACKEND_DIR}/packages/graphql/src/generated/types.ts"
+if [ ! -f "${SOURCE_CONTRACTS}" ]; then
+  SOURCE_CONTRACTS="${BACKEND_DIR}/packages/graphql/src/generated/graphql.ts"
+fi
 TARGET_CONTRACTS="${FRONTEND_GENERATED_DIR}/graphql.ts"
 
 mkdir -p "${FRONTEND_GENERATED_DIR}"
