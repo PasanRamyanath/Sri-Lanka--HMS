@@ -1,5 +1,13 @@
 {
   "name": "sri-lanka-hms-orchestrator",
   "private": true,
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "npm test --prefix HMS-Backend",
+    "test:backend": "npm test --prefix HMS-Backend",
+    "build": "npm run build --prefix HMS-Backend",
+    "lint": "npm run lint --prefix HMS-Backend",
+    "knip": "npm run knip --prefix HMS-Backend"
+  }
 }
+
