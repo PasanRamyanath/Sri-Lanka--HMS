@@ -1759,9 +1759,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 04 Objective:** Provisions the complete AWS serverless stack in `ap-south-1` (Mumbai) within a single concise CDK construct stack: Single-Table DynamoDB (`20 RCU / 20 WCU` Always Free), Cognito User Pool with RBAC groups, AppSync GraphQL API, 5 lean Graviton2 (`ARM_64`) Node.js 22 Lambdas, S3 + CloudFront OAC, and AWS Budgets $1.00 alert.
 
-### - [ ] Step 076 (Phase 04.01): Create CDK App Entrypoint Configured for `ap-south-1` (Mumbai)
+### - [x] Step 076 (Phase 04.01): Create CDK App Entrypoint Configured for `ap-south-1` (Mumbai)
 
-- **Step Completion Status**: `- [ ] Step 076 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 077`
+- **Step Completion Status**: `- [x] Step 076 Completed — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 077`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/cdk/bin/hms.ts`
 - **Architecture Layer**: AWS CDK v2 Near-Free-Tier Serverless Infrastructure (`HMS-Backend/packages/cdk` — `ap-south-1` Mumbai)
