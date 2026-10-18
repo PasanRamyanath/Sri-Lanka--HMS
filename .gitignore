@@ -1,0 +1,15 @@
+# Codespaces sub-repositories (each has its own independent git remote)
+HMS-Backend/
+HMS-Frontend/
+
+# Dependencies & Build
+node_modules/
+dist/
+build/
+cdk.out/
+.env*
+*.tsbuildinfo
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,25 @@
+{
+  "name": "Sri Lanka HMS SaaS — 3-Repo Antigravity Codespace",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "PasanRamyanath/Sri-Lanka--HMS": {
+          "permissions": "write-all"
+        },
+        "PasanRamyanath/HMS-Backend": {
+          "permissions": "write-all"
+        },
+        "PasanRamyanath/HMS-Frontend": {
+          "permissions": "write-all"
+        }
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/bootstrap-three-repos.sh",
+  "forwardPorts": [5173, 4000]
+}
