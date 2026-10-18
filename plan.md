@@ -1430,9 +1430,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 03 Objective:** Authors the complete 42-entity production SaaS GraphQL SDL schema (`HMS-Backend/packages/graphql/schema.graphql`) covering SaaS Organizations, Hotel Tenants, Subscriptions/Billing, RBAC & Shift Sessions, Hash-Chained Audit Logs, Room Types, Seasonal Rates, DMC Accounts, Reservations, Split Folios, IRD Tax Invoices, QR Ordering, KDS, Housekeeping, Banquets, Spa/Excursions, Procurement/FIFO Inventory, SLTDA Returns, and EPF/ETF Payroll, and compiles zero-cold-start AppSync JS direct DynamoDB resolvers.
 
-### - [ ] Step 051 (Phase 03.01): Author Base Scalars, Directives & Enums in `packages/graphql/schema.graphql`
+### - [x] Step 051 (Phase 03.01): Author Base Scalars, Directives & Enums in `packages/graphql/schema.graphql`
 
-- **Step Completion Status**: `- [ ] Step 051 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 052`
+- **Step Completion Status**: `- [x] Step 051 Completed — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 052`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/graphql/schema.graphql`
 - **Architecture Layer**: 42-Entity GraphQL Schema & AppSync Direct JS Resolvers (`HMS-Backend/packages/graphql` — `APPSYNC_JS_1_0_0`)
