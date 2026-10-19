@@ -4064,9 +4064,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 11 Objective:** Builds the ultra-fast (<35 KB gzipped) Contactless QR Mobile Web App modeled on DOMSpeed (`https://qriomatrix.com/products/domspeed/`) so hotel room guests, restaurant diners, and poolside visitors scan a physical QR stand with their smartphone camera and immediately browse, order, pay or post to room folio, and watch real-time kitchen statuses without installing any native app.
 
-### - [ ] Step 251 (Phase 11.01): Build QR Entrypoint & HMAC Session Loader (`/qr/:tenantId/:locationId` -> `GuestQrApp.tsx`)
+### - [x] Step 251 (Phase 11.01): Build QR Entrypoint & HMAC Session Loader (`/qr/:tenantId/:locationId` -> `GuestQrApp.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 251 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 252`
+- **Step Completion Status**: `- [x] Step 251 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 252`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/qr/GuestQrApp.tsx`
 - **Architecture Layer**: Apple HIG Contactless Guest QR Mobile PWA (`HMS-Frontend/src/qr` — `<35 KB` Gzipped Chunk)
