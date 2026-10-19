@@ -2746,9 +2746,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 07 Objective:** Builds the core PMS Front-Desk operational engine: interactive 14/30-day horizontal Room Tape Chart, single and group reservation wizard, Sri Lankan NIC/Passport auto-extraction, DMC/Travel Agent voucher tracking, Chauffeur/Driver dorm bed & meal voucher assignment, digital Registration Card signature pad, and one-click Check-In that activates the room's QR Room Service HMAC token.
 
-### - [ ] Step 151 (Phase 07.01): Build Horizontal 14/30-Day Front-Desk Room Tape Chart Grid (`TapeChartGrid.tsx`)
+### - [x] Step 151 (Phase 07.01): Build Horizontal 14/30-Day Front-Desk Room Tape Chart Grid (`TapeChartGrid.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 151 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 152`
+- **Step Completion Status**: `- [x] Step 151 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 152`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/admin/frontdesk/TapeChartGrid.tsx`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
