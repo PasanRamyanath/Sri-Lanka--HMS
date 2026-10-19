@@ -2417,9 +2417,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 06 Objective:** Builds the Hotel Configuration and Room Inventory management screens in `packages/web/src/admin/settings/` and `packages/web/src/admin/rooms/`, supporting Sri Lankan dual-tier pricing (`RESIDENT_LKR` vs `FOREIGN_USD_LOCKED`), seasonal bands (Peak December–March vs Monsoon May–July), meal plans (`RO`/`BB`/`HB`/`FB`/`AI`), SLTDA/IRD tax toggles, and printable Room QR Stands.
 
-### - [ ] Step 126 (Phase 06.01): Build Property Profile & Branding Settings Form (`PropertyProfileForm.tsx`)
+### - [x] Step 126 (Phase 06.01): Build Property Profile & Branding Settings Form (`PropertyProfileForm.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 126 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 127`
+- **Step Completion Status**: `- [x] Step 126 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 127`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/admin/settings/PropertyProfileForm.tsx`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
