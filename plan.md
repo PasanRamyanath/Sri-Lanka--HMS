@@ -3406,9 +3406,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 09 Objective:** Builds the complete Guest Folio and Cashiering module supporting real-time room service/POS postings, DMC Master vs. Guest Personal split folios, forward and reverse (`All-Inclusive LKR`) 4-stage compounding tax invoices (`SC 10% -> TDL 1% -> SSCL 2.5% -> VAT 18%`), dynamic LankaQR display at reception, PayHere card checkout, and official IRD Tax Invoice printing.
 
-### - [ ] Step 201 (Phase 09.01): Implement Split-Folio Routing Engine (`splitFolioRouter.ts`)
+### - [x] Step 201 (Phase 09.01): Implement Split-Folio Routing Engine (`splitFolioRouter.ts`)
 
-- **Step Completion Status**: `- [ ] Step 201 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 202`
+- **Step Completion Status**: `- [x] Step 201 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 202`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/src/splitFolioRouter.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
@@ -3419,9 +3419,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
   > `[Step 201/500 • Phase 09 • Codespace Repo: HMS-Backend (/workspaces/Sri-Lanka--HMS/HMS-Backend)] Target: HMS-Backend/packages/core/src/splitFolioRouter.ts. Apply Rung 6: Route `ROOM` & `MEAL_PLAN` lines to `FOLIO#&lt;id&gt;#MASTER_DMC` and `FNB`/`SPA`/`MINIBAR`/`LAUNDRY` to `FOLIO#&lt;id&gt;#GUEST_PERSONAL`. Create `packages/core/src/splitFolioRouter.ts` automatically directing charges based on reservation billing rules so travel-agent guests only pay for their personal incidentals at check-out. Enforce the 42-Entity Multi-Tenant SaaS & Sri Lankan Statutory Contract: validate `tenantId` isolation, `RolePermissionMatrix` RBAC, `SaasSubscription` entitlements, 4-stage compounding LKR tax math (`SC -> TDL -> SSCL -> VAT`), and append hash-chained `ImmutableAuditLog` records where state mutates. Write clean, easy-to-understand, self-documenting code (no arbitrary LOC limit) with zero console.log/console.error/debugger statements or dead code. When implementation and tests pass, mark Step 201 as [x] Done in /workspaces/Sri-Lanka--HMS/plan.md and /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md, commit all changes with "feat(step-201): Implement Split-Folio Routing Engine (`splitFolioRouter.ts`)", and push to GitHub (https://github.com/PasanRamyanath/HMS-Backend via git push origin main) before starting Step 202.`
 - **Verification, Checkbox Update & Git Push Gate**: `cd /workspaces/Sri-Lanka--HMS/HMS-Backend && node --test packages/core/test/splitFolioRouter.test.ts && npx biome check . && npx knip && git add -A && git commit -m "feat(step-201): implement-split-folio-routing-engine-splitfolioroute" && git push origin main`
 
-### - [ ] Step 202 (Phase 09.02): Write Unit Tests for DMC Master vs. Guest Incidental Split Folio Routing
+### - [x] Step 202 (Phase 09.02): Write Unit Tests for DMC Master vs. Guest Incidental Split Folio Routing
 
-- **Step Completion Status**: `- [ ] Step 202 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 203`
+- **Step Completion Status**: `- [x] Step 202 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 203`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/test/splitFolioRouter.test.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
