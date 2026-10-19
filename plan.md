@@ -2786,9 +2786,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 - **Verification, Checkbox Update & Git Push Gate**: `cd /workspaces/Sri-Lanka--HMS/HMS-Backend && node --test packages/core/test/availabilityFilter.test.ts && npx biome check . && npx knip && git add -A && git commit -m "feat(step-153): write-unit-tests-for-back-to-back-same-day-turnaroun" && git push origin main`
 
 
-### - [ ] Step 154 (Phase 07.04): Build Reservation & Walk-In Creation Modal (`ReservationModal.tsx`)
+### - [x] Step 154 (Phase 07.04): Build Reservation & Walk-In Creation Modal (`ReservationModal.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 154 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 155`
+- **Step Completion Status**: `- [x] Step 154 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 155`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/admin/frontdesk/ReservationModal.tsx`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
@@ -2798,6 +2798,7 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 - **Exact AGY CLI Prompt to Execute**:
   > `[Step 154/500 • Phase 07 • Codespace Repo: HMS-Frontend (/workspaces/Sri-Lanka--HMS/HMS-Frontend)] Target: HMS-Frontend/src/admin/frontdesk/ReservationModal.tsx. Apply Rung 2: Single form handling Advance Booking, Walk-In Check-In, and DMC Voucher Booking. Create `ReservationModal.tsx` with native `&lt;input type=&quot;date&quot;&gt;`, automatic NIC/Passport detection, residency rate-tier switch, meal-plan selector (`RO`/`BB`/`HB`/`FB`/`AI`), and live `calculateStayQuote` summary. Apply Apple Human Interface Guidelines (`apple-design-skill` & `ui-ux-pro-max-skill`): use `.apple-liquid-glass` translucent surfaces (`backdrop-filter: blur(24px) saturate(180%)` with `@media (prefers-reduced-transparency: reduce)` solid fallback), SF Pro optical typography with `.tabular-nums-lkr` (`font-variant-numeric: tabular-nums`) on all LKR/USD amounts and timers, continuous squircle radii, `>= 44x44pt` touch targets, and fluid spring transitions (`cubic-bezier(0.22, 1, 0.36, 1)`). Write clean, easy-to-understand, self-documenting code (no arbitrary LOC limit) with zero console.log/console.error/debugger statements or dead code. When implementation and tests pass, mark Step 154 as [x] Done in /workspaces/Sri-Lanka--HMS/plan.md and /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md, commit all changes with "feat(step-154): Build Reservation & Walk-In Creation Modal (`ReservationModal.tsx`)", and push to GitHub (https://github.com/PasanRamyanath/HMS-Frontend via git push origin main) before starting Step 155.`
 - **Verification, Checkbox Update & Git Push Gate**: `cd /workspaces/Sri-Lanka--HMS/HMS-Frontend && npx tsc -p HMS-Frontend/tsconfig.json --noEmit && npx biome check . && npx knip && git add -A && git commit -m "feat(step-154): build-reservation-walk-in-creation-modal-reservation" && git push origin main`
+
 
 ### - [ ] Step 155 (Phase 07.05): Build Instant Sri Lankan NIC & Foreign Passport Scanner/Input Field (`GuestIdentityField.tsx`)
 
