@@ -3735,9 +3735,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 10 Objective:** Builds the complete Vendor/Hotel Catalog Management module modeled on DOMSpeed (`https://vendor.qrflash.app/`), managing categories, `1:1` square (`500x500px` WebP) product cards, spice/size/add-on modifiers, meal-plan buffet inclusions (`BB`/`HB`/`FB`/`AI`), time-of-day availability windows (`Breakfast 06:30–10:30`), Recipe Bill of Materials (BOM) links, and Housekeeping/Spa/Concierge service catalogs.
 
-### - [ ] Step 226 (Phase 10.01): Build DOMSpeed-Style Category Manager with Drag/Sort Order & Icons (`CategoryManager.tsx`)
+### - [x] Step 226 (Phase 10.01): Build DOMSpeed-Style Category Manager with Drag/Sort Order & Icons (`CategoryManager.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 226 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 227`
+- **Step Completion Status**: `- [x] Step 226 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 227`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/admin/menus/CategoryManager.tsx`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
