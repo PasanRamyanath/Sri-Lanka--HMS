@@ -4722,9 +4722,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 13 Objective:** Builds the mobile-first Housekeeping & Engineering subsystem so room attendants, supervisors, and maintenance technicians manage room turnarounds (`DIRTY -> CLEAN -> INSPECTED`), guest QR amenity requests, minibar restocking, linen tracking, and AC/plumbing maintenance tickets directly from smartphones.
 
-### - [ ] Step 301 (Phase 13.01): Build Housekeeping Smartphone Room Status Grid (`HousekeepingMobileView.tsx`)
+### - [x] Step 301 (Phase 13.01): Build Housekeeping Smartphone Room Status Grid (`HousekeepingMobileView.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 301 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 302`
+- **Step Completion Status**: `- [x] Step 301 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 302`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/staff/housekeeping/HousekeepingMobileView.tsx`
 - **Architecture Layer**: Apple HIG Smartphone & Tablet Staff Operations App (`HMS-Frontend/src/staff` — KDS / BOT / POS / Housekeeping)
