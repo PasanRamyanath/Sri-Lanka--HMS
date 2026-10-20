@@ -5709,9 +5709,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 16 Objective:** Builds the back-of-house Store & Procurement module essential for preventing food, beverage, and diesel pilferage in Sri Lankan hotels: Purchase Requisition (`PR`) -> Purchase Order (`PO`) -> Goods Received Note (`GRN`) -> Goods Issue Note (`GIN`), multi-store transfers (`Main Dry Store -> Kitchen Sub-Store -> Pool Bar`), automatic Recipe BOM deduction on KDS order completion, liquor peg variance auditing, and low-stock reorder alerts.
 
-### - [ ] Step 376 (Phase 16.01): Build Master Store SKU & Unit-of-Measure Registry (`StockItemManager.tsx`)
+### - [x] Step 376 (Phase 16.01): Build Master Store SKU & Unit-of-Measure Registry (`StockItemManager.tsx`)
 
-- **Step Completion Status**: `- [ ] Step 376 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Frontend/PROGRESS.md before advancing to Step 377`
+- **Step Completion Status**: `- [x] Step 376 Done — Completed in HMS-Frontend`
 - **Target GitHub Repository in Codespaces**: [HMS-Frontend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Frontend) (`/workspaces/Sri-Lanka--HMS/HMS-Frontend` • CI/CD: `HMS-Frontend/.github/workflows/deploy-frontend.yml`)
 - **Target File / Scope**: `HMS-Frontend/src/admin/inventory/StockItemManager.tsx`
 - **Architecture Layer**: Apple HIG Multi-Tenant Hotel SaaS PMS, ERP & Super-Admin Portal (`HMS-Frontend/src/admin`)
