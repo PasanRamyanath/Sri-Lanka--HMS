@@ -5051,9 +5051,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 14 Objective:** Builds a dedicated Banquet & Wedding Hall Management module tailored to Sri Lankan hospitality—where weddings, homecoming receptions, and corporate conferences represent 40%–60% of revenue for many Sri Lankan hotels. Covers auspicious Poruwa/Ashtaka time-slot scheduling, per-plate tiered menus (Bronze/Silver/Gold/Platinum), hard-liquor corkage & chasers, Sri Lankan 'Bite Plates' (devilled cashew/cuttlefish/mutton per table), band/DJ/traditional Kandyan dancers coordination, Function Prospectus (Banquet Event Order / BEO), and staged advance deposits.
 
-### - [ ] Step 326 (Phase 14.01): Implement Sri Lankan Wedding & Banquet Pricing Calculator (`calculateBanquetQuote`)
+### - [x] Step 326 (Phase 14.01): Implement Sri Lankan Wedding & Banquet Pricing Calculator (`calculateBanquetQuote`)
 
-- **Step Completion Status**: `- [ ] Step 326 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 327`
+- **Step Completion Status**: `- [x] Step 326 Done — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 327`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/src/banquetMath.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
