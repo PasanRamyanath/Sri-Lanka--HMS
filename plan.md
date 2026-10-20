@@ -5380,9 +5380,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 15 Objective:** Builds the Sri Lankan Resort Experiences & Wellness module covering Ayurveda Doctor (`Vaidya`) Dosha consultations and treatment room scheduling, Yala/Udawalawe/Wilpattu/Minneriya Safari Jeep & DWC park ticket coordination, Mirissa/Trincomalee Whale Watching boat bookings, Pelmadulla/Ratnapura Gem Tour & Hill-Country Tea Factory excursions, and BIA Katunayake Airport Transfer fleet dispatch.
 
-### - [ ] Step 351 (Phase 15.01): Implement Resource Slot Conflict Checker for Therapists, Treatment Rooms & Safari Vehicles (`resourceScheduler.ts`)
+### - [x] Step 351 (Phase 15.01): Implement Resource Slot Conflict Checker for Therapists, Treatment Rooms & Safari Vehicles (`resourceScheduler.ts`)
 
-- **Step Completion Status**: `- [ ] Step 351 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 352`
+- **Step Completion Status**: `- [x] Step 351 Completed — Marked [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 352`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/src/resourceScheduler.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
