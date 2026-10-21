@@ -6367,9 +6367,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
 
 **Phase 18 Objective:** Builds the Sri Lankan Hospitality HR & Payroll module governed by the Shop and Office Employees Act and Wages Boards Ordinance: monthly `10% Service Charge` pool distribution (with configurable 5%–10% breakage/glassware recovery deduction and point-weight × attendance allocation), statutory `EPF 8%` (Employee) / `12%` (Employer) and `ETF 3%` (Employer) schedules, APIT (Advance Personal Income Tax) brackets, duty roster management, and printable bilingual payslips.
 
-### - [ ] Step 426 (Phase 18.01): Implement Sri Lankan APIT (Advance Personal Income Tax) Monthly Tax Table Calculator (`calculateSriLankaApit`)
+### - [x] Step 426 (Phase 18.01): Implement Sri Lankan APIT (Advance Personal Income Tax) Monthly Tax Table Calculator (`calculateSriLankaApit`)
 
-- **Step Completion Status**: `- [ ] Step 426 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 427`
+- **Step Completion Status**: `- [x] Step 426 Done`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/core/src/payroll.ts`
 - **Architecture Layer**: Backend Domain Engine (`HMS-Backend/packages/core` — Zero External NPM Dependencies)
