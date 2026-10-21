@@ -3,11 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "npm test --prefix HMS-Backend",
+    "codegen": "npm run codegen --prefix HMS-Backend",
+    "build": "npm run build --prefix HMS-Backend && npm run build --prefix HMS-Frontend",
+    "test": "npm test --prefix HMS-Backend && npm test --prefix HMS-Frontend",
     "test:backend": "npm test --prefix HMS-Backend",
-    "build": "npm run build --prefix HMS-Backend",
-    "lint": "npm run lint --prefix HMS-Backend",
-    "knip": "npm run knip --prefix HMS-Backend"
+    "test:frontend": "npm test --prefix HMS-Frontend",
+    "lint": "npm run lint --prefix HMS-Backend && npm run lint --prefix HMS-Frontend",
+    "knip": "npm run knip --prefix HMS-Backend && npm run knip --prefix HMS-Frontend"
   }
 }
 
