@@ -7311,9 +7311,9 @@ Execute the following **500 steps** sequentially inside your [GitHub Codespace f
   > `[Step 497/500 • Phase 20 • Codespace Repo: Sri-Lanka--HMS (/workspaces/Sri-Lanka--HMS)] Target: README.md. Apply Rung 1: Clear, human-readable developer & hotelier runbook. Write root `README.md` covering local setup, AGY CLI plugin commands, AWS CDK deployment, PayHere/Channex/SMSGo webhook URLs, and how to onboard a new Sri Lankan hotel in 5 minutes. Orchestrate cleanly across `/workspaces/Sri-Lanka--HMS`, `/workspaces/Sri-Lanka--HMS/HMS-Backend`, and `/workspaces/Sri-Lanka--HMS/HMS-Frontend` inside GitHub Codespaces. Write clean, easy-to-understand, self-documenting code (no arbitrary LOC limit) with zero console.log/console.error/debugger statements or dead code. When implementation and tests pass, mark Step 497 as [x] Done in /workspaces/Sri-Lanka--HMS/plan.md and /workspaces/Sri-Lanka--HMS/plan.md, commit all changes with "feat(step-497): Author Operational Runbook for Hotel Onboarding, QR Stand Printing & SLTDA Returns (`README.md`)", and push to GitHub (https://github.com/PasanRamyanath/Sri-Lanka--HMS via git push origin main) before starting Step 498.`
 - **Verification, Checkbox Update & Git Push Gate**: `cd /workspaces/Sri-Lanka--HMS && test -f README.md && npx biome check . && npx knip && git add -A && git commit -m "feat(step-497): author-operational-runbook-for-hotel-onboarding-qr-s" && git push origin main`
 
-### - [ ] Step 498 (Phase 20.23): Run Final Ponytail Gain Scoreboard (`/ponytail:ponytail-gain`)
+### - [x] Step 498 (Phase 20.23): Run Final Ponytail Gain Scoreboard (`/ponytail:ponytail-gain`)
 
-- **Step Completion Status**: `- [ ] Step 498 Pending — Mark [x] Done in /workspaces/Sri-Lanka--HMS/plan.md & /workspaces/Sri-Lanka--HMS/HMS-Backend/PROGRESS.md before advancing to Step 499`
+- **Step Completion Status**: `- [x] Step 498 Done`
 - **Target GitHub Repository in Codespaces**: [HMS-Backend](https://www.google.com/search?q=https%3A%2F%2Fgithub.com%2FPasanRamyanath%2FHMS-Backend) (`/workspaces/Sri-Lanka--HMS/HMS-Backend` • CI/CD: `HMS-Backend/.github/workflows/deploy-backend.yml`)
 - **Target File / Scope**: `HMS-Backend/packages/`
 - **Architecture Layer**: GitHub Codespaces 3-Repo Orchestrator, AGY CLI Skills & Cross-Repo Quality Gates (`Sri-Lanka--HMS`)
