@@ -12,4 +12,3 @@
     "knip": "npm run knip --prefix HMS-Backend && npm run knip --prefix HMS-Frontend"
   }
 }
-
