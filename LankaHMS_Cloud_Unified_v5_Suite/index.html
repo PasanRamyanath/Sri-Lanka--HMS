@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LankaHMS Cloud — Unified v5.0 Master UI/UX Suite (Best of Version 1 + Version 2 • 48 4K Screens)</title>
+<style>
+  body { font-family: 'Inter', 'Noto Sans Display', sans-serif; background: #F4F7F5; color: #0F1F18; margin: 0; padding: 36px 44px; }
+  .header { max-width: 1640px; margin: 0 auto 24px auto; background: #082F21; color: #FFF; padding: 28px 36px; border-radius: 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 12px 30px rgba(8,47,33,0.15); }
+  h1 { font-family: 'Noto Serif Display', Georgia, serif; font-size: 31px; margin: 0 0 6px 0; }
+  p { color: #A7F3D0; margin: 0; font-size: 14.5px; }
+  .toolbar { max-width: 1640px; margin: 0 auto 28px auto; background: #FFFFFF; border: 1px solid #DCE7E1; padding: 14px 20px; border-radius: 14px; display: flex; justify-content: space-between; align-items: center; gap: 14px; flex-wrap: wrap; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { border: 1px solid #CBD5E1; background: #F8FAFC; color: #334155; font-size: 12.5px; font-weight: 700; padding: 7px 14px; border-radius: 999px; cursor: pointer; }
+  .filter-btn.active { background: #0B6E4F; color: #FFFFFF; border-color: #0B6E4F; }
+  .search-input { border: 1px solid #CBD5E1; border-radius: 10px; padding: 8px 14px; width: 280px; font-size: 13px; }
+  .grid { max-width: 1640px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; }
+  .card { background: #FFFFFF; border: 1px solid #DCE7E1; border-radius: 16px; overflow: hidden; box-shadow: 0 6px 20px rgba(15, 31, 24, 0.05); transition: transform 0.15s ease; }
+  .card:hover { transform: translateY(-3px); }
+  .card-head { padding: 13px 18px; border-bottom: 1px solid #EEF3F0; display: flex; align-items: center; justify-content: space-between; background: #FAFDFB; }
+  .badge { background: #ECFDF5; color: #065F46; border: 1px solid #A7F3D0; font-weight: 800; font-size: 11.5px; padding: 3.5px 10px; border-radius: 999px; }
+  .cat-tag { background: #F1F5F9; color: #475569; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 6px; }
+  h3 { margin: 0; font-size: 15px; font-weight: 800; color: #0F1F18; }
+  img { width: 100%; display: block; }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>LankaHMS Cloud — Unified v5.0 Master UI/UX Suite (Best of Version 1 + Version 2)</h1>
+      <p>48 Ultra-Crisp 4K Screens (3840×2160 px) • Expandable Botanical Sidebar Tree + Live CloudFront 7-Mode Switcher + Zero Empty Voids</p>
+    </div>
+    <div style="text-align:right;font-size:12.5px;color:#D1FAE5;">
+      <div><strong>Live Production SPA:</strong> d2pf537unmm77a.cloudfront.net</div>
+      <div style="margin-top:4px;"><strong>Tax Cascade:</strong> 10% SC → 1% TDL → 2.5% SSCL → 18% VAT (34.343%)</div>
+    </div>
+  </div>
+  <div class="toolbar">
+    <div class="filters">
+      <button class="filter-btn active" onclick="filterScreens('ALL', this)">All 48 Screens</button>
+      <button class="filter-btn" onclick="filterScreens('Portal & Auth', this)">Portal & Auth (4)</button>
+      <button class="filter-btn" onclick="filterScreens('Dashboard & Rooms', this)">Dashboard & Rooms (7)</button>
+      <button class="filter-btn" onclick="filterScreens('Front Desk & DMC', this)">Front Desk & DMC (5)</button>
+      <button class="filter-btn" onclick="filterScreens('Folios & Tax', this)">Folios & Billing (4)</button>
+      <button class="filter-btn" onclick="filterScreens('Settings & Governance', this)">Settings, Tax & SaaS (6)</button>
+      <button class="filter-btn" onclick="filterScreens('Guest ERP & Operations', this)">ERP Modules (14)</button>
+      <button class="filter-btn" onclick="filterScreens('Staff POS, KDS & BOT', this)">Staff POS, KDS & BOT (5)</button>
+      <button class="filter-btn" onclick="filterScreens('Guest QR & Direct Booking', this)">Guest QR & Direct Booking (3)</button>
+    </div>
+    <input type="text" class="search-input" placeholder="Search screen title or module..." oninput="searchScreens(this.value)" />
+  </div>
+  <div class="grid" id="galleryGrid">
+    
+    <div class="card" data-cat="Portal & Auth" data-title="base landing portal & 7-workspace launcher 01_base_landing_portal.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 01</span>
+          <h3>Base Landing Portal & 7-Workspace Launcher</h3>
+        </div>
+        <span class="cat-tag">Portal & Auth</span>
+      </div>
+      <a href="screenshots/01_Base_Landing_Portal.png" target="_blank">
+        <img src="screenshots/01_Base_Landing_Portal.png" alt="Base Landing Portal & 7-Workspace Launcher" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Portal & Auth" data-title="staff & admin sign-in with demo role quick-fill 02_login_staff_and_admin_signin.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 02</span>
+          <h3>Staff & Admin Sign-In with Demo Role Quick-Fill</h3>
+        </div>
+        <span class="cat-tag">Portal & Auth</span>
+      </div>
+      <a href="screenshots/02_Login_Staff_And_Admin_SignIn.png" target="_blank">
+        <img src="screenshots/02_Login_Staff_And_Admin_SignIn.png" alt="Staff & Admin Sign-In with Demo Role Quick-Fill" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Portal & Auth" data-title="shared tablet 4-digit pos pin pad & smsgo.lk otp 03_login_pos_terminal_pin_and_otp.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 03</span>
+          <h3>Shared Tablet 4-Digit POS PIN Pad & SMSGo.lk OTP</h3>
+        </div>
+        <span class="cat-tag">Portal & Auth</span>
+      </div>
+      <a href="screenshots/03_Login_POS_Terminal_PIN_And_OTP.png" target="_blank">
+        <img src="screenshots/03_Login_POS_Terminal_PIN_And_OTP.png" alt="Shared Tablet 4-Digit POS PIN Pad & SMSGo.lk OTP" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Portal & Auth" data-title="5-minute sri lankan hotel setup wizard 04_onboarding_new_property_setup_wizard.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 04</span>
+          <h3>5-Minute Sri Lankan Hotel Setup Wizard</h3>
+        </div>
+        <span class="cat-tag">Portal & Auth</span>
+      </div>
+      <a href="screenshots/04_Onboarding_New_Property_Setup_Wizard.png" target="_blank">
+        <img src="screenshots/04_Onboarding_New_Property_Setup_Wizard.png" alt="5-Minute Sri Lankan Hotel Setup Wizard" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="executive dashboard overview & bento telemetry 05_admin_dashboard_executive_overview.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 05</span>
+          <h3>Executive Dashboard Overview & Bento Telemetry</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/05_Admin_Dashboard_Executive_Overview.png" target="_blank">
+        <img src="screenshots/05_Admin_Dashboard_Executive_Overview.png" alt="Executive Dashboard Overview & Bento Telemetry" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="daily kitchen meal-plan headcount & live feed 06_admin_dashboard_meal_headcount_and_live_feed.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 06</span>
+          <h3>Daily Kitchen Meal-Plan Headcount & Live Feed</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/06_Admin_Dashboard_Meal_Headcount_And_Live_Feed.png" target="_blank">
+        <img src="screenshots/06_Admin_Dashboard_Meal_Headcount_And_Live_Feed.png" alt="Daily Kitchen Meal-Plan Headcount & Live Feed" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="suite & villa master categories 07_admin_rooms_suite_categories.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 07</span>
+          <h3>Suite & Villa Master Categories</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/07_Admin_Rooms_Suite_Categories.png" target="_blank">
+        <img src="screenshots/07_Admin_Rooms_Suite_Categories.png" alt="Suite & Villa Master Categories" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="physical room inventory & floor grid 08_admin_rooms_physical_floor_grid.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 08</span>
+          <h3>Physical Room Inventory & Floor Grid</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/08_Admin_Rooms_Physical_Floor_Grid.png" target="_blank">
+        <img src="screenshots/08_Admin_Rooms_Physical_Floor_Grid.png" alt="Physical Room Inventory & Floor Grid" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="resident lkr & foreign usd tariff matrix 09_admin_rooms_dual_currency_rate_matrix.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 09</span>
+          <h3>Resident LKR & Foreign USD Tariff Matrix</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/09_Admin_Rooms_Dual_Currency_Rate_Matrix.png" target="_blank">
+        <img src="screenshots/09_Admin_Rooms_Dual_Currency_Rate_Matrix.png" alt="Resident LKR & Foreign USD Tariff Matrix" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="seasonal multipliers & stay quote simulator 10_admin_rooms_seasonal_calendar_and_quote_simulator.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 10</span>
+          <h3>Seasonal Multipliers & Stay Quote Simulator</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/10_Admin_Rooms_Seasonal_Calendar_And_Quote_Simulator.png" target="_blank">
+        <img src="screenshots/10_Admin_Rooms_Seasonal_Calendar_And_Quote_Simulator.png" alt="Seasonal Multipliers & Stay Quote Simulator" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Dashboard & Rooms" data-title="contactless room & table qr stand generator 11_admin_rooms_contactless_qr_stands_print.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 11</span>
+          <h3>Contactless Room & Table QR Stand Generator</h3>
+        </div>
+        <span class="cat-tag">Dashboard & Rooms</span>
+      </div>
+      <a href="screenshots/11_Admin_Rooms_Contactless_QR_Stands_Print.png" target="_blank">
+        <img src="screenshots/11_Admin_Rooms_Contactless_QR_Stands_Print.png" alt="Contactless Room & Table QR Stand Generator" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Front Desk & DMC" data-title="14-day room allocation tape chart 12_admin_frontdesk_14day_tape_chart.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 12</span>
+          <h3>14-Day Room Allocation Tape Chart</h3>
+        </div>
+        <span class="cat-tag">Front Desk & DMC</span>
+      </div>
+      <a href="screenshots/12_Admin_FrontDesk_14Day_Tape_Chart.png" target="_blank">
+        <img src="screenshots/12_Admin_FrontDesk_14Day_Tape_Chart.png" alt="14-Day Room Allocation Tape Chart" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Front Desk & DMC" data-title="express check-in & sri lankan nic/passport ocr 13_admin_frontdesk_arrivals_and_nic_passport_checkin.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 13</span>
+          <h3>Express Check-In & Sri Lankan NIC/Passport OCR</h3>
+        </div>
+        <span class="cat-tag">Front Desk & DMC</span>
+      </div>
+      <a href="screenshots/13_Admin_FrontDesk_Arrivals_And_NIC_Passport_CheckIn.png" target="_blank">
+        <img src="screenshots/13_Admin_FrontDesk_Arrivals_And_NIC_Passport_CheckIn.png" alt="Express Check-In & Sri Lankan NIC/Passport OCR" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Front Desk & DMC" data-title="dmc travel agent contracts & group rooming 14_admin_frontdesk_dmc_contracts_and_group_rooming.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 14</span>
+          <h3>DMC Travel Agent Contracts & Group Rooming</h3>
+        </div>
+        <span class="cat-tag">Front Desk & DMC</span>
+      </div>
+      <a href="screenshots/14_Admin_FrontDesk_DMC_Contracts_And_Group_Rooming.png" target="_blank">
+        <img src="screenshots/14_Admin_FrontDesk_DMC_Contracts_And_Group_Rooming.png" alt="DMC Travel Agent Contracts & Group Rooming" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Front Desk & DMC" data-title="chauffeur & driver dormitory quarters 15_admin_frontdesk_chauffeur_and_driver_quarters.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 15</span>
+          <h3>Chauffeur & Driver Dormitory Quarters</h3>
+        </div>
+        <span class="cat-tag">Front Desk & DMC</span>
+      </div>
+      <a href="screenshots/15_Admin_FrontDesk_Chauffeur_And_Driver_Quarters.png" target="_blank">
+        <img src="screenshots/15_Admin_FrontDesk_Chauffeur_And_Driver_Quarters.png" alt="Chauffeur & Driver Dormitory Quarters" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Front Desk & DMC" data-title="tourist police b-card register & guest crm 16_admin_frontdesk_tourist_police_bcard_and_guest_crm.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 16</span>
+          <h3>Tourist Police B-Card Register & Guest CRM</h3>
+        </div>
+        <span class="cat-tag">Front Desk & DMC</span>
+      </div>
+      <a href="screenshots/16_Admin_FrontDesk_Tourist_Police_BCard_And_Guest_CRM.png" target="_blank">
+        <img src="screenshots/16_Admin_FrontDesk_Tourist_Police_BCard_And_Guest_CRM.png" alt="Tourist Police B-Card Register & Guest CRM" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Folios & Tax" data-title="split guest folio workspace (dmc vs guest) 17_admin_folios_split_dmc_and_guest_billing.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 17</span>
+          <h3>Split Guest Folio Workspace (DMC vs Guest)</h3>
+        </div>
+        <span class="cat-tag">Folios & Tax</span>
+      </div>
+      <a href="screenshots/17_Admin_Folios_Split_DMC_And_Guest_Billing.png" target="_blank">
+        <img src="screenshots/17_Admin_Folios_Split_DMC_And_Guest_Billing.png" alt="Split Guest Folio Workspace (DMC vs Guest)" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Folios & Tax" data-title="multi-tender & dynamic lankaqr checkout 18_admin_folios_lankaqr_and_multitender_checkout.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 18</span>
+          <h3>Multi-Tender & Dynamic LankaQR Checkout</h3>
+        </div>
+        <span class="cat-tag">Folios & Tax</span>
+      </div>
+      <a href="screenshots/18_Admin_Folios_LankaQR_And_MultiTender_Checkout.png" target="_blank">
+        <img src="screenshots/18_Admin_Folios_LankaQR_And_MultiTender_Checkout.png" alt="Multi-Tender & Dynamic LankaQR Checkout" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Folios & Tax" data-title="official ird ramis commercial tax invoice print 19_admin_folios_ird_commercial_tax_invoice_print.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 19</span>
+          <h3>Official IRD RAMIS Commercial Tax Invoice Print</h3>
+        </div>
+        <span class="cat-tag">Folios & Tax</span>
+      </div>
+      <a href="screenshots/19_Admin_Folios_IRD_Commercial_Tax_Invoice_Print.png" target="_blank">
+        <img src="screenshots/19_Admin_Folios_IRD_Commercial_Tax_Invoice_Print.png" alt="Official IRD RAMIS Commercial Tax Invoice Print" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Folios & Tax" data-title="corporate city ledger & cashier shift drawer 20_admin_folios_city_ledger_and_cashier_shift_drawer.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 20</span>
+          <h3>Corporate City Ledger & Cashier Shift Drawer</h3>
+        </div>
+        <span class="cat-tag">Folios & Tax</span>
+      </div>
+      <a href="screenshots/20_Admin_Folios_City_Ledger_And_Cashier_Shift_Drawer.png" target="_blank">
+        <img src="screenshots/20_Admin_Folios_City_Ledger_And_Cashier_Shift_Drawer.png" alt="Corporate City Ledger & Cashier Shift Drawer" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="4-stage tax engine & cbsl fx settings 21_admin_settings_4stage_tax_and_cbsl_currency.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 21</span>
+          <h3>4-Stage Tax Engine & CBSL FX Settings</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/21_Admin_Settings_4Stage_Tax_And_CBSL_Currency.png" target="_blank">
+        <img src="screenshots/21_Admin_Settings_4Stage_Tax_And_CBSL_Currency.png" alt="4-Stage Tax Engine & CBSL FX Settings" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="payment gateways, smsgo.lk, rbac & sha-256 audit 22_admin_settings_payment_gateways_sms_and_rbac.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 22</span>
+          <h3>Payment Gateways, SMSGo.lk, RBAC & SHA-256 Audit</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/22_Admin_Settings_Payment_Gateways_SMS_And_RBAC.png" target="_blank">
+        <img src="screenshots/22_Admin_Settings_Payment_Gateways_SMS_And_RBAC.png" alt="Payment Gateways, SMSGo.lk, RBAC & SHA-256 Audit" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="23:59 night audit wizard & gm flash report 23_admin_tax_night_audit_and_gm_flash_report.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 23</span>
+          <h3>23:59 Night Audit Wizard & GM Flash Report</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/23_Admin_Tax_Night_Audit_And_GM_Flash_Report.png" target="_blank">
+        <img src="screenshots/23_Admin_Tax_Night_Audit_And_GM_Flash_Report.png" alt="23:59 Night Audit Wizard & GM Flash Report" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="sltda form mr-1 & 1% tdl return 24_admin_tax_sltda_occupancy_and_tdl_returns.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 24</span>
+          <h3>SLTDA Form MR-1 & 1% TDL Return</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/24_Admin_Tax_SLTDA_Occupancy_And_TDL_Returns.png" target="_blank">
+        <img src="screenshots/24_Admin_Tax_SLTDA_Occupancy_And_TDL_Returns.png" alt="SLTDA Form MR-1 & 1% TDL Return" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="ird vat/sscl schedules & quickbooks gl export 25_admin_tax_ird_vat_sscl_and_quickbooks_gl_export.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 25</span>
+          <h3>IRD VAT/SSCL Schedules & QuickBooks GL Export</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/25_Admin_Tax_IRD_VAT_SSCL_And_QuickBooks_GL_Export.png" target="_blank">
+        <img src="screenshots/25_Admin_Tax_IRD_VAT_SSCL_And_QuickBooks_GL_Export.png" alt="IRD VAT/SSCL Schedules & QuickBooks GL Export" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Settings & Governance" data-title="saas super-admin multi-tenant directory & quotas 26_admin_saas_superadmin_tenants_and_aws_quotas.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 26</span>
+          <h3>SaaS Super-Admin Multi-Tenant Directory & Quotas</h3>
+        </div>
+        <span class="cat-tag">Settings & Governance</span>
+      </div>
+      <a href="screenshots/26_Admin_SaaS_SuperAdmin_Tenants_And_AWS_Quotas.png" target="_blank">
+        <img src="screenshots/26_Admin_SaaS_SuperAdmin_Tenants_And_AWS_Quotas.png" alt="SaaS Super-Admin Multi-Tenant Directory & Quotas" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="channex ota channel manager & ical sync 27_admin_channels_channex_ota_sync_and_ical.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 27</span>
+          <h3>Channex OTA Channel Manager & iCal Sync</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/27_Admin_Channels_Channex_OTA_Sync_And_iCal.png" target="_blank">
+        <img src="screenshots/27_Admin_Channels_Channex_OTA_Sync_And_iCal.png" alt="Channex OTA Channel Manager & iCal Sync" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="sri lankan bank credit card promos & widget 28_admin_channels_srilankan_bank_card_promos_and_widget.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 28</span>
+          <h3>Sri Lankan Bank Credit Card Promos & Widget</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/28_Admin_Channels_SriLankan_Bank_Card_Promos_And_Widget.png" target="_blank">
+        <img src="screenshots/28_Admin_Channels_SriLankan_Bank_Card_Promos_And_Widget.png" alt="Sri Lankan Bank Credit Card Promos & Widget" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="trilingual dish catalog & recipe bom costing 29_admin_menus_trilingual_dish_catalog_and_bom.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 29</span>
+          <h3>Trilingual Dish Catalog & Recipe BOM Costing</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/29_Admin_Menus_Trilingual_Dish_Catalog_And_BOM.png" target="_blank">
+        <img src="screenshots/29_Admin_Menus_Trilingual_Dish_Catalog_And_BOM.png" alt="Trilingual Dish Catalog & Recipe BOM Costing" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="menu engineering, happy hour, minibar & laundry 30_admin_menus_engineering_happyhour_minibar_laundry.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 30</span>
+          <h3>Menu Engineering, Happy Hour, Minibar & Laundry</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/30_Admin_Menus_Engineering_HappyHour_Minibar_Laundry.png" target="_blank">
+        <img src="screenshots/30_Admin_Menus_Engineering_HappyHour_Minibar_Laundry.png" alt="Menu Engineering, Happy Hour, Minibar & Laundry" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="housekeeping room status & wing attendants 31_admin_housekeeping_room_status_and_attendants.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 31</span>
+          <h3>Housekeeping Room Status & Wing Attendants</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/31_Admin_Housekeeping_Room_Status_And_Attendants.png" target="_blank">
+        <img src="screenshots/31_Admin_Housekeeping_Room_Status_And_Attendants.png" alt="Housekeeping Room Status & Wing Attendants" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="linen laundry, engineering & ceb/diesel utilities 32_admin_housekeeping_laundry_maintenance_and_utilities.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 32</span>
+          <h3>Linen Laundry, Engineering & CEB/Diesel Utilities</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/32_Admin_Housekeeping_Laundry_Maintenance_And_Utilities.png" target="_blank">
+        <img src="screenshots/32_Admin_Housekeeping_Laundry_Maintenance_And_Utilities.png" alt="Linen Laundry, Engineering & CEB/Diesel Utilities" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="poruwa wedding calendar, nekath timeline & floor plan 33_admin_banquets_poruwa_wedding_calendar_and_timeline.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 33</span>
+          <h3>Poruwa Wedding Calendar, Nekath Timeline & Floor Plan</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/33_Admin_Banquets_Poruwa_Wedding_Calendar_And_Timeline.png" target="_blank">
+        <img src="screenshots/33_Admin_Banquets_Poruwa_Wedding_Calendar_And_Timeline.png" alt="Poruwa Wedding Calendar, Nekath Timeline & Floor Plan" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="banquet bite plates, corkage gate-pass & deposits 34_admin_banquets_biteplates_corkage_liquor_and_mice.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 34</span>
+          <h3>Banquet Bite Plates, Corkage Gate-Pass & Deposits</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/34_Admin_Banquets_BitePlates_Corkage_Liquor_And_MICE.png" target="_blank">
+        <img src="screenshots/34_Admin_Banquets_BitePlates_Corkage_Liquor_And_MICE.png" alt="Banquet Bite Plates, Corkage Gate-Pass & Deposits" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="ayurveda vaidya dosha card & spa schedule 35_admin_spa_ayurveda_vaidya_dosha_and_schedule.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 35</span>
+          <h3>Ayurveda Vaidya Dosha Card & Spa Schedule</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/35_Admin_Spa_Ayurveda_Vaidya_Dosha_And_Schedule.png" target="_blank">
+        <img src="screenshots/35_Admin_Spa_Ayurveda_Vaidya_Dosha_And_Schedule.png" alt="Ayurveda Vaidya Dosha Card & Spa Schedule" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="yala safaris, bia transfers & scooter fleet 36_admin_excursions_safaris_bia_transfers_and_rentals.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 36</span>
+          <h3>Yala Safaris, BIA Transfers & Scooter Fleet</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/36_Admin_Excursions_Safaris_BIA_Transfers_And_Rentals.png" target="_blank">
+        <img src="screenshots/36_Admin_Excursions_Safaris_BIA_Transfers_And_Rentals.png" alt="Yala Safaris, BIA Transfers & Scooter Fleet" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="multi-store fifo stock & pr/po/grn procurement 37_admin_inventory_fifo_stock_and_procurement_vouchers.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 37</span>
+          <h3>Multi-Store FIFO Stock & PR/PO/GRN Procurement</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/37_Admin_Inventory_FIFO_Stock_And_Procurement_Vouchers.png" target="_blank">
+        <img src="screenshots/37_Admin_Inventory_FIFO_Stock_And_Procurement_Vouchers.png" alt="Multi-Store FIFO Stock & PR/PO/GRN Procurement" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="bar 25ml/50ml peg variance audit & lpg tracker 38_admin_inventory_bar_peg_audit_and_lpg_cylinders.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 38</span>
+          <h3>Bar 25ml/50ml Peg Variance Audit & LPG Tracker</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/38_Admin_Inventory_Bar_Peg_Audit_And_LPG_Cylinders.png" target="_blank">
+        <img src="screenshots/38_Admin_Inventory_Bar_Peg_Audit_And_LPG_Cylinders.png" alt="Bar 25ml/50ml Peg Variance Audit & LPG Tracker" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="10% service charge pool & biometric shift roster 39_admin_hr_10percent_service_charge_pool_and_roster.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 39</span>
+          <h3>10% Service Charge Pool & Biometric Shift Roster</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/39_Admin_HR_10Percent_Service_Charge_Pool_And_Roster.png" target="_blank">
+        <img src="screenshots/39_Admin_HR_10Percent_Service_Charge_Pool_And_Roster.png" alt="10% Service Charge Pool & Biometric Shift Roster" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest ERP & Operations" data-title="epf/etf payroll, bilingual payslips & lankapay slips 40_admin_hr_epf_etf_payroll_apit_and_lankapay_slips.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 40</span>
+          <h3>EPF/ETF Payroll, Bilingual Payslips & LankaPay SLIPS</h3>
+        </div>
+        <span class="cat-tag">Guest ERP & Operations</span>
+      </div>
+      <a href="screenshots/40_Admin_HR_EPF_ETF_Payroll_APIT_And_LankaPay_SLIPS.png" target="_blank">
+        <img src="screenshots/40_Admin_HR_EPF_ETF_Payroll_APIT_And_LankaPay_SLIPS.png" alt="EPF/ETF Payroll, Bilingual Payslips & LankaPay SLIPS" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Staff POS, KDS & BOT" data-title="staff operations hub & live orders ledger 41_staff_unified_operations_pwa_hub.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 41</span>
+          <h3>Staff Operations Hub & Live Orders Ledger</h3>
+        </div>
+        <span class="cat-tag">Staff POS, KDS & BOT</span>
+      </div>
+      <a href="screenshots/41_Staff_Unified_Operations_PWA_Hub.png" target="_blank">
+        <img src="screenshots/41_Staff_Unified_Operations_PWA_Hub.png" alt="Staff Operations Hub & Live Orders Ledger" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Staff POS, KDS & BOT" data-title="restaurant pos waiter order entry & meal-plan check 42_staff_restaurant_pos_waiter_order_entry.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 42</span>
+          <h3>Restaurant POS Waiter Order Entry & Meal-Plan Check</h3>
+        </div>
+        <span class="cat-tag">Staff POS, KDS & BOT</span>
+      </div>
+      <a href="screenshots/42_Staff_Restaurant_POS_Waiter_Order_Entry.png" target="_blank">
+        <img src="screenshots/42_Staff_Restaurant_POS_Waiter_Order_Entry.png" alt="Restaurant POS Waiter Order Entry & Meal-Plan Check" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Staff POS, KDS & BOT" data-title="pos interactive floor map, buffet host & shift z-read 43_staff_restaurant_pos_floor_map_buffet_and_zread.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 43</span>
+          <h3>POS Interactive Floor Map, Buffet Host & Shift Z-Read</h3>
+        </div>
+        <span class="cat-tag">Staff POS, KDS & BOT</span>
+      </div>
+      <a href="screenshots/43_Staff_Restaurant_POS_Floor_Map_Buffet_And_ZRead.png" target="_blank">
+        <img src="screenshots/43_Staff_Restaurant_POS_Floor_Map_Buffet_And_ZRead.png" alt="POS Interactive Floor Map, Buffet Host & Shift Z-Read" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Staff POS, KDS & BOT" data-title="dark oled kitchen display system (kds) kanban 44_staff_kitchen_display_system_kds_kanban.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 44</span>
+          <h3>Dark OLED Kitchen Display System (KDS) Kanban</h3>
+        </div>
+        <span class="cat-tag">Staff POS, KDS & BOT</span>
+      </div>
+      <a href="screenshots/44_Staff_Kitchen_Display_System_KDS_Kanban.png" target="_blank">
+        <img src="screenshots/44_Staff_Kitchen_Display_System_KDS_Kanban.png" alt="Dark OLED Kitchen Display System (KDS) Kanban" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Staff POS, KDS & BOT" data-title="sunset bar bot, mobile housekeeping & staff sc app 45_staff_bar_order_token_bot_and_mobile_staff_apps.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 45</span>
+          <h3>Sunset Bar BOT, Mobile Housekeeping & Staff SC App</h3>
+        </div>
+        <span class="cat-tag">Staff POS, KDS & BOT</span>
+      </div>
+      <a href="screenshots/45_Staff_Bar_Order_Token_BOT_And_Mobile_Staff_Apps.png" target="_blank">
+        <img src="screenshots/45_Staff_Bar_Order_Token_BOT_And_Mobile_Staff_Apps.png" alt="Sunset Bar BOT, Mobile Housekeeping & Staff SC App" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest QR & Direct Booking" data-title="guest qr dining menu, customizer & pin checkout 46_guest_qr_room104_dining_menu_and_pin_checkout.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 46</span>
+          <h3>Guest QR Dining Menu, Customizer & PIN Checkout</h3>
+        </div>
+        <span class="cat-tag">Guest QR & Direct Booking</span>
+      </div>
+      <a href="screenshots/46_Guest_QR_Room104_Dining_Menu_And_PIN_Checkout.png" target="_blank">
+        <img src="screenshots/46_Guest_QR_Room104_Dining_Menu_And_PIN_Checkout.png" alt="Guest QR Dining Menu, Customizer & PIN Checkout" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest QR & Direct Booking" data-title="guest qr live order tracker, amenities & folio 47_guest_qr_room104_live_tracker_services_and_folio.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 47</span>
+          <h3>Guest QR Live Order Tracker, Amenities & Folio</h3>
+        </div>
+        <span class="cat-tag">Guest QR & Direct Booking</span>
+      </div>
+      <a href="screenshots/47_Guest_QR_Room104_Live_Tracker_Services_And_Folio.png" target="_blank">
+        <img src="screenshots/47_Guest_QR_Room104_Live_Tracker_Services_And_Folio.png" alt="Guest QR Live Order Tracker, Amenities & Folio" loading="lazy" />
+      </a>
+    </div>
+    
+    <div class="card" data-cat="Guest QR & Direct Booking" data-title="direct booking engine, pre-check-in & cloud webhooks 48_direct_booking_engine_precheckin_and_cloud_webhooks.png">
+      <div class="card-head">
+        <div style="display:flex;align-items:center;gap:10px;">
+          <span class="badge">Screen 48</span>
+          <h3>Direct Booking Engine, Pre-Check-In & Cloud Webhooks</h3>
+        </div>
+        <span class="cat-tag">Guest QR & Direct Booking</span>
+      </div>
+      <a href="screenshots/48_Direct_Booking_Engine_PreCheckIn_And_Cloud_Webhooks.png" target="_blank">
+        <img src="screenshots/48_Direct_Booking_Engine_PreCheckIn_And_Cloud_Webhooks.png" alt="Direct Booking Engine, Pre-Check-In & Cloud Webhooks" loading="lazy" />
+      </a>
+    </div>
+    
+  </div>
+  <script>
+    function filterScreens(cat, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.card').forEach(c => {
+        c.style.display = (cat === 'ALL' || c.dataset.cat === cat) ? 'block' : 'none';
+      });
+    }
+    function searchScreens(q) {
+      const term = q.toLowerCase().trim();
+      document.querySelectorAll('.card').forEach(c => {
+        c.style.display = (!term || c.dataset.title.includes(term)) ? 'block' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
